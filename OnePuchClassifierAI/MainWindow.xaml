@@ -1,0 +1,16 @@
+﻿<Window x:Class="OnePuchClassifierAI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnePuchClassifierAI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Border BorderBrush = "Black" Margin="2,2,2,130" BorderThickness="2">
+            <Image Name = "imageView" ></Image>
+        </Border >
+        <Button Click="OpenImageButton" Content="Класифікувати" Margin="10,372,600,31"/>
+        <TextBlock Name = "ResultText" Text="---" Margin="238,393,10,52" TextAlignment="Center"></TextBlock>
+    </Grid>
+</Window>
